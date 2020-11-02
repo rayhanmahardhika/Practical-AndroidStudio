@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Input Controls</string>
+    <string name="labelNama">Nama</string>
+    <string name="hintNama">Nama anda</string>
+    <string name="labelJudul">Isian Tugas Akhir Mahasiswa</string>
+    <string name="hintNIM">NIM anda</string>
+    <string name="labelNIM">NIM</string>
+    <string name="labelAlamat">Alamat</string>
+    <string name="hintAlamat">Alamat Anda</string>
+    <string name="hintJudulSkripsi">Judul Skripsi Anda</string>
+    <string name="labelJudulSkripsi">Judul</string>
+    <string name="labelPengajuan">Waktu Pengajuan</string>
+    <string name="labelStatus">Status Pengerjaan</string>
+    <string name="labelStatusDiterima">Judu; Diterima</string>
+    <string name="labelStatusProgress">Sudah Progress</string>
+    <string name="labelStatusPendadaran">Sudah Pendadaran</string>
+    <string-array name="listPengajuan">
+        <item>2019/2020 - Ganjil</item>
+        <item>2019/2020 - Genap</item>
+        <item>2020/2021 - Ganjil</item>
+        <item>2020/2021 - Genap</item>
+    </string-array>
+</resources>

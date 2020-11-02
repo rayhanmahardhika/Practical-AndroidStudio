@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvJudul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/labelJudul"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="24dp"/>
+
+    <TextView
+        android:id="@+id/tvNama"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="@string/labelNama"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="@id/etNama"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/etNama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/hintNama"
+        android:textSize="18sp"
+        android:inputType="textPersonName"
+        android:ems="10"
+        app:layout_constraintTop_toBottomOf="@id/tvJudul"
+        app:layout_constraintLeft_toRightOf="@id/tvNama"
+        android:layout_marginTop="24dp"/>
+
+    <TextView
+        android:id="@+id/tvNIM"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="@string/labelNIM"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="@id/etNIM"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/etNIM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/hintNIM"
+        android:textSize="18sp"
+        android:inputType="number"
+        android:ems="10"
+        app:layout_constraintTop_toBottomOf="@id/tvNama"
+        app:layout_constraintLeft_toRightOf="@id/tvNIM"
+        android:layout_marginTop="24dp"/>
+
+    <TextView
+        android:id="@+id/tvAlamat"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="@string/labelAlamat"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="@id/etAlamat"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/etAlamat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/hintAlamat"
+        android:textSize="18sp"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        app:layout_constraintTop_toBottomOf="@id/tvNIM"
+        app:layout_constraintLeft_toRightOf="@id/tvAlamat"
+        android:layout_marginTop="24dp"/>
+
+    <TextView
+        android:id="@+id/tvJudulSkripsi"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="@string/labelJudulSkripsi"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="@id/etJudulSkripsi"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/etJudulSkripsi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/hintJudulSkripsi"
+        android:textSize="18sp"
+        android:inputType="textCapWords|textMultiLine"
+        android:ems="10"
+        app:layout_constraintTop_toBottomOf="@id/tvAlamat"
+        app:layout_constraintLeft_toRightOf="@id/tvJudulSkripsi"
+        android:layout_marginTop="24dp"/>
+
+    <TextView
+        android:id="@+id/tvPengajuan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/labelPengajuan"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/etJudulSkripsi"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="24dp"/>
+
+    <Spinner
+        android:id="@+id/sPengajuan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@id/tvPengajuan"
+        app:layout_constraintLeft_toRightOf="@id/tvPengajuan"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/tvStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/labelStatus"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvPengajuan"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="24dp"/>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/tvStatus"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/rbDiterima"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/labelStatusDiterima"
+            android:layout_marginLeft="24dp"
+            android:onClick="fDiterima"/>
+
+        <RadioButton
+            android:id="@+id/rbProgress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/labelStatusProgress"
+            android:layout_marginLeft="24dp"
+            android:onClick="fProgress"/>
+
+        <RadioButton
+            android:id="@+id/rbPendadaran"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/labelStatusPendadaran"
+            android:layout_marginLeft="24dp"
+            android:onClick="fPendadaran"/>
+
+    </RadioGroup>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

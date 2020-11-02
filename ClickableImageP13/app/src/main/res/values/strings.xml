@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Clickable Image P13</string>
+    <string name="label_menu">Silakan Memilih Menu</string>
+    <string name="label_deskripsi_kapucino">Kapucino adalah minuman yang terbuat dari kopi dan susu yang diolah dengan alat khusus</string>
+    <string name="label_deskripsi_kopi">Kopi adalah minuman hasil seduhan biji kopi yang terlah dimasak dan dihaluskan hingga menjadi bubuk</string>
+    <string name="label_deskripsi_teh">Teh adalah minuman hasil seduhan dari batang dan daun tumbuhan Camelia Sinesis yang telah dikeringkan</string>
+    <string name="teksPesanKapucino">Anda memesan kapucino</string>
+    <string name="teksPesanKopi">Anda memesan kopi</string>
+    <string name="teksPesanTeh">Anda memesan teh</string>
+    <string name="label_pembuka">Pesanan telah tersimpan</string>
+</resources>

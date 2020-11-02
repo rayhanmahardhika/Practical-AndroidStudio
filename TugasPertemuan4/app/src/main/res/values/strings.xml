@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">TugasPertemuan4</string>
+    <string name="label_angka">0</string>
+    <string name="label_identitas">Rayhan Mahardhika Wijaya / 18523055</string>
+    <string name="label_aksi2">+2</string>
+    <string name="label_aksi3">+5</string>
+    <string name="label_aksi1">+1</string>
+    <string name="label_aksi4">-1</string>
+    <string name="label_aksi5">-2</string>
+    <string name="label_aksi6">-5</string>
+    <string name="label_reset">reset</string>
+    <string name="label_pesan">Angka Berhasil Dirubah</string>
+</resources>

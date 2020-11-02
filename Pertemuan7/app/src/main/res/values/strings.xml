@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Pertemuan 7</string>
+    <string name="label_header2activity">Pesan Diterima</string>
+    <string name="label_bSend">Send</string>
+    <string name="label_etMain">Tulis pesanmu di sini</string>
+    <string name="label_bReply">reply</string>
+    <string name="label_etSecond">Tulis pesan balasanmu di sini</string>
+    <string name="label_tvHeaderMain">Reply Message Received</string>
+</resources>

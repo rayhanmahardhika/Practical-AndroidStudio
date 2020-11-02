@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Implicit Intents</string>
+    <string name="label_bUri">Open Website</string>
+    <string name="label_etUri">http://developer.android.com</string>
+</resources>

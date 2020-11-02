@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">pertemuan3b2</string>
+    <string name="label_nomor">0</string>
+    <string name="label_reset">reset</string>
+    <string name="label_tambah">tambah</string>
+    <string name="label_pesan">Antrian Ditambah</string>
+</resources>

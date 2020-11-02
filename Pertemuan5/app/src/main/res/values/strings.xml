@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Pertemuan 5</string>
+    <string name="TeksAngka">0</string>
+    <string name="TeksButtonTambah">Tambah</string>
+    <string name="TeksButtonKurang">Kurang</string>
+    <string name="TeksButtonReset">Reset</string>
+</resources>
